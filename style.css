@@ -17,11 +17,12 @@ body{
 	 opacity: 0;
 	 transition:4s;
 }
+
 header {
 	position: relative;
 	background-color: pink;
 	height: 85vh;
-	min-height: 35rem;
+	min-height: 45rem;
 	width: 100%;
 	overflow: hidden;
 }
