@@ -9,6 +9,14 @@ body{
 	margin-right:10px;
 }
 
+.fixed-top{
+	transition:1s;
+}
+
+#welcome-message{
+	 opacity: 0;
+	 transition:4s;
+}
 header {
 	position: relative;
 	background-color: pink;
@@ -77,9 +85,27 @@ header .text-white{
 	background: rgba(255, 0, 162, 0.3);
 	
 }
+#main button{
+	background-color: rgba(0,0,0,0.5);
+	font-size:300%;
+	color:#FFF;
+
+}
+.form-styling{
+	background-color: rgba(255,0,162,0.08);
+	border:solid 2px #fff;
+	color:#FFF;
+	
+}
+.form-styling{
+	font-weight:bold;
+	border-radius:80px;
+	
+}
+
+
 
 #main a{
-	background-color: rgba(0,0,0,0);
 	font-size:300%;
 	color:#FFF;
 	font-family: 'Sacramento', cursive;
@@ -94,6 +120,17 @@ header .text-white{
 	padding-top:30px;
 	padding-bottom:30px;
 	background-color:#243533;
+	color:#FFF;
+}
+.footer-sm p{
+	font-size:280%;
+	transition:1s;
+}
+.footer-sm a{
+	color:#FFF;
+
+}
+.footer-sm a:hover{
 	color:#FF00A2;
 }
 
@@ -114,5 +151,7 @@ header .text-white{
 }
 .fancy-font{
 	font-family: 'Sacramento', cursive;
-	font-size:180%;
+}
+
+#navbar{
 }
