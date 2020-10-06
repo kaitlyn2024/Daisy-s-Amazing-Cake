@@ -20,8 +20,8 @@ body{
 header {
 	position: relative;
 	background-color: pink;
-	height: 75vh;
-	min-height: 25rem;
+	height: 85vh;
+	min-height: 35rem;
 	width: 100%;
 	overflow: hidden;
 }
