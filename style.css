@@ -3,6 +3,15 @@ body{
 	font-family: 'Alice', serif;
 }
 
+a{
+	color:#FF00A2;
+}
+a:hover{
+	color:#FF00A2;
+	font-weight:bold;
+	text-decoration:none;
+}
+
 .logo{
 	border-radius:100px;
 	background:#fff;
@@ -21,8 +30,8 @@ body{
 header {
 	position: relative;
 	background-color: pink;
-	height: 85vh;
-	min-height: 45rem;
+	height: 75vh;
+	min-height: 40rem;
 	width: 100%;
 	overflow: hidden;
 }
@@ -73,49 +82,72 @@ header .text-white{
 	}
 }
 
-#main{
+#services{
+	width:100%;
+	background: url(img/bakery.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#services .container{
+	padding-top:50px;
+	padding-bottom:50px;
+	background: rgba(255, 0, 162, 0.3);
+	
+	
+}
+#services2{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#contact{
 	width:100%;
 	background: url(img/cake.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+		padding-top:20px;
+	padding-bottom:20px;
 }
-#main .container{
+#contact .container{
 	padding-top:50px;
 	padding-bottom:50px;
 	background: rgba(255, 0, 162, 0.3);
 	
 }
-#main button{
+#contact button{
 	background-color: rgba(0,0,0,0.5);
 	font-size:300%;
 	color:#FFF;
 
 }
-.form-styling{
-	background-color: rgba(255,0,162,0.08);
-	border:solid 2px #fff;
-	color:#FFF;
-	
-}
-.form-styling{
-	font-weight:bold;
-	border-radius:80px;
-	
-}
-
-
-
-#main a{
+#contact a{
 	font-size:300%;
 	color:#FFF;
 	font-family: 'Sacramento', cursive;
 
 }
-#main a:hover{
+#contact a:hover{
 	font-weight:bold;
 	text-decoration:none;
 }
+.form-styling{
+	background-color: rgba(255,0,162,0.08);
+	border:solid 2px #fff;
+	color:#FFF;
+}
+.form-styling{
+	font-weight:bold;
+	border-radius:0px;
+	
+}
+
+
+
+
 
 .footer{
 	padding-top:30px;
@@ -154,5 +186,20 @@ header .text-white{
 	font-family: 'Sacramento', cursive;
 }
 
-#navbar{
+.card-title{
+	color:#FF00A2;
+	font-family: 'Sacramento', cursive;
+	font-size:200%;
 }
+.button-style{
+	background-color: rgba(0,0,0,0);
+	border: solid 2px #FF00A2;
+	color:#FF00A2;
+	padding:10px;
+}
+.button-style:hover{
+	background-color: #FF00A2;
+	color:white;
+	text-decoration:none;
+	transition:.5;
+}0
